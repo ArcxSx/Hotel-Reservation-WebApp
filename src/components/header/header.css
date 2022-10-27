@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(203, 151, 83);
+    background-color: #16161d;
     color: white;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
     gap: 10px;
 }
 .headerListItem.active{
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 10px;
     border-radius: 20px;
 }
@@ -32,12 +32,14 @@
     margin: 20px 0px;
 }
 .headerBtn{
-    background-color: tan;
-    color: white;
+    background-color: #0f52ba;
+    color: whitesmoke;
+    border-radius: 0.2rem;
     font-weight: 500;
     border: none;
     padding: 10px;
     cursor: pointer;
+    border-radius: 0.3rem;
 }
 .headerSearch{
     height: 30px;
