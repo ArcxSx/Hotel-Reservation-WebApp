@@ -13,11 +13,12 @@
 
 .listSearch {
     flex: 1;
-    background-color: #1da1f2;
+    background-color: #ACE1AF;
     padding: 10px;
     border-radius: 10px;
     position: sticky;
     top: 10px;
+    height: max-content;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -72,4 +73,15 @@
 
 .listOptions {
     padding: 10px;
+}
+
+.listSearch>button {
+    padding: 8px 10px;
+    background-color: #0f52ba;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 500;
 }

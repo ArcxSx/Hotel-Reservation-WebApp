@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCircleArrowLeft, faCircleArrowRight, faCircleXmark, faLocationDot } from "@fortawesome/free-solid-svg-icons"
 import "./hotel.css"
 import { useState } from "react"
+import MailList from "../../components/mailList/MailList"
+import Footer from "../../components/footer/Footer"
 
 const Hotel = () => {
   const [slideNumber, setSlideNumber] = useState(0);
@@ -120,8 +122,9 @@ const Hotel = () => {
               <button>Reserve or Book Now!</button>
             </div>
           </div>
-          {/* <MailList /> */}
         </div>
+        <MailList />
+        <Footer />
       </div>
     </div>
   )
