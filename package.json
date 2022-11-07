@@ -3,11 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "@fortawesome/fontawesome": "^1.1.8",
-=======
     "@babel/core": "^7.16.0",
->>>>>>> d73d4bdcbcb04191b2bb3bc9940313d32b551d21
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -53,11 +50,8 @@
     "react-dom": "^18.2.0",
     "react-refresh": "^0.11.0",
     "react-router-dom": "^6.4.2",
-<<<<<<< HEAD
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-=======
+    "web-vitals": "^2.1.4",
     "resolve": "^1.20.0",
     "resolve-url-loader": "^4.0.0",
     "sass-loader": "^12.3.0",
@@ -73,7 +67,6 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "devDependencies": {},
->>>>>>> d73d4bdcbcb04191b2bb3bc9940313d32b551d21
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
