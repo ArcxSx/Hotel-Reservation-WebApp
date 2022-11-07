@@ -4,6 +4,7 @@
     align-items: center;
     /* justify-content: center; */
     margin-top: 20px;
+    gap: 30px;
 }
 
 .hotelWrapper {
@@ -88,13 +89,17 @@
 }
 
 .hotelDetailsPrice {
+    background: rgba(130, 174, 210, 0.293);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     flex: 1;
-    background-color: #AFE1AF;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .hotelDetailsPrice>h1 {
